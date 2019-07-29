@@ -10,6 +10,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 import itertools
 
+# Target names
+target_names = ['acerolas', 'apples', 'apricots', 'avocados', 'bananas', 'blackberries', 'blueberries',
+                'cantaloupes', 'cherries', 'coconuts', 'figs', 'grapefruits', 'grapes', 'guava',
+                'kiwifruit', 'lemons', 'limes', 'mangos', 'olives', 'oranges', 'passionfruit', 'peaches',
+                'pears', 'pineapples', 'plums', 'pomegranates', 'raspberries', 'strawberries', 'tomatoes',
+                'watermelons']
+# Target labels
+labels = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+
 def classify_with_gridsearch():
     """
         Implemented with GridSearchCV()
