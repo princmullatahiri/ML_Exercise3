@@ -2,6 +2,181 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc483303-21cd-4988-ac4e-4abca7493613" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-0.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-1.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-10.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-100.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-101.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-102.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-103.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-104.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-105.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-106.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-107.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-108.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-109.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-11.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-110.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-111.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-112.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-113.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-114.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-115.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-116.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-117.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-118.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-119.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-12.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-120.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-121.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-122.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-123.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-124.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-125.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-126.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-127.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-128.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-129.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-13.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-130.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-131.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-132.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-133.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-134.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-135.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-136.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-137.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-138.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-139.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-14.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-140.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-141.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-142.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-143.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-144.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-145.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-146.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-147.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-148.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-149.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-15.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-150.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-151.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-152.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-153.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-154.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-155.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-156.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-157.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-158.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-159.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-16.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-160.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-161.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-162.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-163.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-164.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-165.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-166.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-167.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-168.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-169.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-17.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-18.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-19.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-2.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-20.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-21.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-22.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-23.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-24.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-25.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-26.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-27.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-28.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-29.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-3.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-30.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-31.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-32.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-33.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-34.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-35.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-36.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-37.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-38.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-39.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-4.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-40.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-41.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-42.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-43.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-44.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-45.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-46.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-47.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-48.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-49.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-5.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-50.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-51.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-52.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-53.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-54.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-55.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-56.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-57.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-58.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-59.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-6.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-60.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-61.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-62.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-63.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-64.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-65.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-66.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-67.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-68.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-69.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-7.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-70.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-71.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-72.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-73.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-74.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-75.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-76.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-77.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-78.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-79.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-8.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-80.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-81.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-82.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-83.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-84.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-85.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-86.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-87.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-88.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-89.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-9.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-90.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-91.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-92.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-93.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-94.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-95.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-96.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-97.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-98.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/CarData/traintestImages/test-99.pgm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Interim/cars/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Interim/cars/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Interim/cars/dataOpenCV_1D.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Interim/cars/dataOpenCV_1D.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Interim/cars/dataOpenCV_2D.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Interim/cars/dataOpenCV_2D.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Interim/cars/dataOpenCV_3D.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/Interim/cars/dataOpenCV_3D.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/featureExtractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/featureExtractor.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,18 +186,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ML_Exercise3$featureExtractor.coverage" NAME="featureExtractor Coverage Results" MODIFIED="1564414178911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_Exercise3$featureExtractor.coverage" NAME="featureExtractor Coverage Results" MODIFIED="1564439984357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/featureExtractor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="161" column="99" selection-start-line="161" selection-start-column="99" selection-end-line="161" selection-end-column="99" />
+            <state relative-caret-position="222">
+              <caret line="179" column="31" selection-start-line="179" selection-start-column="31" selection-end-line="179" selection-end-column="31" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/CarData/Evaluator_Scale.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1513">
+              <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -127,19 +311,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564411459074</updated>
-      <workItem from="1564411460634" duration="2867000" />
+      <workItem from="1564411460634" duration="4542000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2867000" />
+    <option name="totallyTimeSpent" value="4542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12080537" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21073826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -165,10 +349,17 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/CarData/Evaluator_Scale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1513">
+          <caret line="89" column="12" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/featureExtractor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="161" column="99" selection-start-line="161" selection-start-column="99" selection-end-line="161" selection-end-column="99" />
+        <state relative-caret-position="222">
+          <caret line="179" column="31" selection-start-line="179" selection-start-column="31" selection-end-line="179" selection-end-column="31" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>

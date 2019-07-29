@@ -20,7 +20,7 @@ def loadImageDataSet(dataset):
     # and unzip them to your folder
     #imagePath = Path("../data/raw/"+dataset)
     if dataset == 'cars':
-        imagePath = Path("data/CarData/TrainImages/")
+        imagePath = Path("data/CarData/traintestImages/")
         os.chdir(imagePath)
         fileNames = glob.glob("*.pgm")
     else:
@@ -180,6 +180,23 @@ def main():
     #loadImageDataSet('fruits')
 
 
+
+    #RENAME TEST DATA
+    # i = 550
+    #
+    # for filename in os.listdir("TestImages/"):
+    #     dst = "pos-" + str(i) + ".pgm"
+    #     src = 'TestImages/' + filename
+    #     dst = 'TestImages/' + dst
+    #
+    #     # rename() function will
+    #     # rename all the files
+    #     os.rename(src, dst)
+    #     i += 1
+
+
 if __name__ == '__main__':
     main()
     sys.exit(0)
+
+
