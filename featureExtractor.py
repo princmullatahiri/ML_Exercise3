@@ -20,18 +20,18 @@ def loadImageDataSet(dataset):
     # and unzip them to your folder
     #imagePath = Path("../data/raw/"+dataset)
     if dataset == 'cars':
-        imagePath = Path("data/CarData/traintestImages")
+        imagePath = Path("data/CarData/TrainImages/")
         os.chdir(imagePath)
+        fileNames = glob.glob("*.pgm")
     else:
         imagePath = Path("data/FIDS30/")
         os.chdir(imagePath.absolute())
+        fileNames = glob.glob("*/*.jpg")
 
     # Find all images in that folder; there are like 1.000 different ways to do this in Python, we chose this one :-)
 
-    if dataset == 'cars':
-        fileNames = glob.glob("*/*.pgm")
-    else:
-        fileNames = glob.glob("*/*.jpg")
+
+
 
     numberOfFiles = len(fileNames)
     targetLabels = []
@@ -160,10 +160,9 @@ def loadImageDataSet(dataset):
         data_path = Path("C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3/ml_exercise_3/main/data/Interim/cars")
     else:
         data_path = Path("C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3/ml_exercise_3/main/data/Interim/fruits")
-
+    print(data_path)
     for index, trainSet in enumerate(trainingSets):
         df = pd.DataFrame(trainSet)
-
         # Add class labels
         df['class'] = target
 
