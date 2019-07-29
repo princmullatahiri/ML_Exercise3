@@ -157,9 +157,9 @@ def loadImageDataSet(dataset):
     print('Saving data to CSV file formats ({}).'.format(str(datetime.datetime.now())))
     #data_path = Path('../data/interim/'+dataset)
     if dataset == 'cars':
-        data_path = Path("C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3/ml_exercise_3/main/data/Interim/cars")
+        data_path = Path("C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/ML_Exercise3/data/Interim/cars")
     else:
-        data_path = Path("C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3/ml_exercise_3/main/data/Interim/fruits")
+        data_path = Path("C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/ML_Exercise3/data/Interim/fruits")
     print(data_path)
     for index, trainSet in enumerate(trainingSets):
         df = pd.DataFrame(trainSet)
