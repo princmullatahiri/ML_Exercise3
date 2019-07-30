@@ -21,7 +21,7 @@ labels = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
 #Arlind change absoulute Path for you
 #absolutePath = "C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/"
 absolutePath = "/Users/macbook/Documents/TU Wien/Sommer Semester 2019/Machine Learning/Exercise 3_new/"
-def classify_with_gridsearch():
+def classify_with_gridsearch(dataset):
     """
         Implemented with GridSearchCV()
         :return:
@@ -93,17 +93,16 @@ def classify_with_gridsearch():
             report = classification_report(y_pred, y_test, output_dict=True)
 
             # Create df from report
-            p = Path(absolutePath + 'ML_Exercise3/reports/classification_reports/fruit/'
-                     '/gridsearch/')
+            p = Path(absolutePath + 'ML_Exercise3/reports/performance_measures/' + dataset + '/')
             dataframe = pd.DataFrame.from_dict(report)
             dataframe.to_csv(p / '{}_{}.csv'.format(index, name))
 
-            p = Path(absolutePath + 'ML_Exercise3/reports/cv_results/fruit/')
+            p = Path(absolutePath + 'ML_Exercise3/reports/cv_results/' + dataset + '/')
             dataframe = pd.DataFrame.from_dict(clf.cv_results_)
             dataframe.to_csv(p / '{}_{}.csv'.format(index, name))
 
             # Open and append best params and best score
-            with open("fruit_scores_gridsearch.dat", 'a') as f:
+            with open(dataset + "_scores_gridsearch.dat", 'a') as f:
                 f.write('{}_{}, {}, {}\n'.format(index, name, clf.best_params_, clf.best_score_))
 
             # Compute confusion matrix
@@ -113,7 +112,7 @@ def classify_with_gridsearch():
             # Plot non-normalized confusion matrix
             plt.figure()
             save_confusion_matrix(cnf_matrix, classes=target_names, title='Confusion matrix, without normalization')
-            p = Path(absolutePath + 'ML_Exercise3/reports/figures/fruit/')
+            p = Path(absolutePath + 'ML_Exercise3/reports/figures/' + dataset + '/')
             plt.savefig(p / '{}_{}_Confusion_Matrix.png'.format(index, name))
 
 
@@ -152,8 +151,9 @@ def save_confusion_matrix(cm, classes, normalize=False, title='Confusion matrix'
 
 
 def main():
-    # classify_without_gridsearch()
-    classify_with_gridsearch()
+    #classify_with_gridsearch('fruit')
+    classify_with_gridsearch('car')
+
 
 
 if __name__ == '__main__':
