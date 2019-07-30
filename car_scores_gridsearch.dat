@@ -32,3 +32,27 @@ PillowData_Naive Bayes, {}, 0.07003089598352215
 PillowData_KNN, {'n_neighbors': 8}, 0.5462555066079295
 PillowData_Naive Bayes, {}, 0.5341409691629956
 PillowData_Decision Tree, {'max_depth': 16, 'min_samples_split': 10}, 0.6475770925110133
+PillowData_KNN, {'n_neighbors': 8}, 0.5462555066079295
+PillowData_Naive Bayes, {}, 0.5341409691629956
+PillowData_Decision Tree, {'max_depth': 16, 'min_samples_split': 10}, 0.6387665198237885
+PillowData_Random Forest, {'n_estimators': 1800}, 0.6233480176211453
+PillowData_SVC, {'C': 0.001, 'gamma': 0.001}, 0.5506607929515419
+PillowData_LinearSVC, {'C': 10}, 0.5781938325991189
+dataOpenCV_1D_KNN, {'n_neighbors': 1}, 0.5704918032786885
+dataOpenCV_1D_Naive Bayes, {}, 0.530327868852459
+dataOpenCV_1D_Decision Tree, {'max_depth': 6, 'min_samples_split': 310}, 0.6631147540983606
+dataOpenCV_1D_Random Forest, {'n_estimators': 1000}, 0.7073770491803278
+dataOpenCV_1D_SVC, {'C': 0.001, 'gamma': 0.001}, 0.5901639344262295
+dataOpenCV_1D_LinearSVC, {'C': 0.1}, 0.521311475409836
+dataOpenCV_2D_KNN, {'n_neighbors': 6}, 0.6213114754098361
+dataOpenCV_2D_Naive Bayes, {}, 0.5262295081967213
+dataOpenCV_2D_Decision Tree, {'max_depth': 6, 'min_samples_split': 210}, 0.6959016393442623
+dataOpenCV_2D_Random Forest, {'n_estimators': 1600}, 0.6844262295081968
+dataOpenCV_2D_SVC, {'C': 0.001, 'gamma': 0.001}, 0.5901639344262295
+dataOpenCV_2D_LinearSVC, {'C': 0.1}, 0.5459016393442623
+dataOpenCV_3D_KNN, {'n_neighbors': 5}, 0.6319672131147541
+dataOpenCV_3D_Naive Bayes, {}, 0.5336065573770492
+dataOpenCV_3D_Decision Tree, {'max_depth': 11, 'min_samples_split': 210}, 0.6688524590163935
+dataOpenCV_3D_Random Forest, {'n_estimators': 1400}, 0.6688524590163935
+dataOpenCV_3D_SVC, {'C': 10, 'gamma': 0.001}, 0.6213114754098361
+dataOpenCV_3D_LinearSVC, {'C': 0.1}, 0.5918032786885246

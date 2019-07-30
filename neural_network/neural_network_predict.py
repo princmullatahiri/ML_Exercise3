@@ -55,7 +55,7 @@ execution_path = os.getcwd()
 #Need to create a way to get the variables from the sys.args method.
 prediction = CustomImagePrediction()
 prediction.setModelTypeAsResNet()
-prediction.setModelPath(os.path.join(execution_path, "data/" + dataset+ "/models/model.h5"))
+prediction.setModelPath(os.path.join(execution_path, "data/" + dataset+ "/models/model_resnet.h5"))
 prediction.setJsonPath(os.path.join(execution_path, "data/" + dataset + "/json/model_class.json"))
 prediction.loadModel(num_objects=num_objects)
 
