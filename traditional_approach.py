@@ -20,7 +20,7 @@ target_names = ['acerolas', 'apples', 'apricots', 'avocados', 'bananas', 'blackb
 labels = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
 #Arlind change absoulute Path for you
 #absolutePath = "C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/"
-absolutePath = ""
+absolutePath = "/Users/macbook/Documents/TU Wien/Sommer Semester 2019/Machine Learning/Exercise 3_new/"
 def classify_with_gridsearch():
     """
         Implemented with GridSearchCV()

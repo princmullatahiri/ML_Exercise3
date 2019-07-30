@@ -3,3 +3,32 @@ PillowData_Naive Bayes, {}, 0.07003089598352215
 PillowData_Decision Tree, {'max_depth': 11, 'min_samples_split': 10}, 0.14418125643666324
 PillowData_KNN, {'n_neighbors': 7}, 0.1101956745623069
 PillowData_Naive Bayes, {}, 0.07003089598352215
+PillowData_KNN, {'n_neighbors': 7}, 0.1101956745623069
+PillowData_Naive Bayes, {}, 0.07003089598352215
+PillowData_Decision Tree, {'max_depth': 11, 'min_samples_split': 10}, 0.13903192584963955
+PillowData_Random Forest, {'n_estimators': 1800}, 0.30175077239958803
+PillowData_SVC, {'C': 0.001, 'gamma': 0.001}, 0.04737384140061792
+PillowData_KNN, {'n_neighbors': 7}, 0.1101956745623069
+PillowData_Naive Bayes, {}, 0.07003089598352215
+PillowData_Decision Tree, {'max_depth': 11, 'min_samples_split': 10}, 0.13903192584963955
+PillowData_Random Forest, {'n_estimators': 800}, 0.2976313079299691
+PillowData_SVC, {'C': 0.001, 'gamma': 0.001}, 0.04737384140061792
+PillowData_LinearSVC, {'C': 10}, 0.16889804325437693
+dataOpenCV_1D_KNN, {'n_neighbors': 1}, 0.1380020597322348
+dataOpenCV_1D_Naive Bayes, {}, 0.07312049433573635
+dataOpenCV_1D_Decision Tree, {'max_depth': 16, 'min_samples_split': 10}, 0.13903192584963955
+dataOpenCV_1D_Random Forest, {'n_estimators': 1000}, 0.29866117404737386
+dataOpenCV_1D_SVC, {'C': 0.001, 'gamma': 0.001}, 0.04737384140061792
+dataOpenCV_1D_LinearSVC, {'C': 0.001}, 0.17507723995880536
+dataOpenCV_2D_KNN, {'n_neighbors': 1}, 0.1791967044284243
+dataOpenCV_2D_Naive Bayes, {}, 0.19670442842430483
+dataOpenCV_2D_Decision Tree, {'max_depth': 11, 'min_samples_split': 10}, 0.2842430484037075
+dataOpenCV_2D_Random Forest, {'n_estimators': 1000}, 0.5077239958805355
+dataOpenCV_2D_SVC, {'C': 0.001, 'gamma': 0.001}, 0.04737384140061792
+dataOpenCV_2D_LinearSVC, {'C': 0.01}, 0.3635427394438723
+dataOpenCV_3D_KNN, {'n_neighbors': 1}, 0.22245108135942326
+dataOpenCV_3D_Naive Bayes, {}, 0.25025746652935116
+dataOpenCV_3D_Decision Tree, {'max_depth': 6, 'min_samples_split': 10}, 0.2945417095777549
+dataOpenCV_3D_Random Forest, {'n_estimators': 800}, 0.553038105046344
+dataOpenCV_3D_SVC, {'C': 0.001, 'gamma': 0.001}, 0.04737384140061792
+dataOpenCV_3D_LinearSVC, {'C': 1}, 0.35118434603501547
