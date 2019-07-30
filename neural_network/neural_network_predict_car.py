@@ -11,7 +11,7 @@ execution_path = os.getcwd()
 #Need to create a way to get the variables from the sys.args method.
 prediction = CustomImagePrediction()
 prediction.setModelTypeAsResNet()
-prediction.setModelPath(os.path.join(execution_path, "data/car/models/model_ex-016_acc-0.726562.h5"))
+prediction.setModelPath(os.path.join(execution_path, "data/car/models/model.h5"))
 prediction.setJsonPath(os.path.join(execution_path, "data/car/json/model_class.json"))
 prediction.loadModel(num_objects=2)
 
@@ -51,15 +51,15 @@ for each_path in path_arr:
         for index in range(len(predictions)):
             print(predictions[index], " : ", percentage_probabilities[index])
             all_predictions.append([predictions[index], percentage_probabilities[index]])
-
+        print("-----------------------")
         all_predictions.append(['====', '===='])
     accuracy = metrics.accuracy_score(temp_y_true, temp_y_predict)
     class_acc.append([each_path, accuracy])
     print('=====================================================================================================')
 accuracy = metrics.accuracy_score(y_true, y_predict)
-precision = metrics.precision_score(y_true, y_predict, pos_label='car')
-recall = metrics.recall_score(y_true, y_predict, pos_label='car')
-f1_score = metrics.f1_score(y_true, y_predict, pos_label='car')
+precision = metrics.precision_score(y_true, y_predict, average='micro')
+recall = metrics.recall_score(y_true, y_predict, average='micro')
+f1_score = metrics.f1_score(y_true, y_predict, average='micro')
 
 cnf_matrix = metrics.confusion_matrix(y_true, y_predict)
 #np.set_printoptions(precision=2)
