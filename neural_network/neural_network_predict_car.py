@@ -12,8 +12,6 @@ prediction.loadModel(num_objects=2)
 
 path_arr = ['car', 'no-car']
 
-##YOU SHOULD NOT WORK HERE ANYMORE, THIS IS A DEPRECATED PROJECT
-
 
 
 for each_path in path_arr:
