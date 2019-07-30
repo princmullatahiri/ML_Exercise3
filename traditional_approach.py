@@ -18,7 +18,9 @@ target_names = ['acerolas', 'apples', 'apricots', 'avocados', 'bananas', 'blackb
                 'watermelons']
 # Target labels
 labels = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
-
+#Arlind change absoulute Path for you
+#absolutePath = "C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/"
+absolutePath = ""
 def classify_with_gridsearch():
     """
         Implemented with GridSearchCV()
@@ -28,7 +30,7 @@ def classify_with_gridsearch():
     # load data sets
     print('Loading CSVs ({}).'.format(str(datetime.datetime.now())))
     # TODO: Look into why the relative paths aren't working
-    path = Path('C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/ML_Exercise3/data/Interim/fruits')
+    path = Path(absolutePath + 'ML_Exercise3/data/Interim/fruits')
     data = pd.read_csv(path / 'data.csv', index_col=0)
     dataOpenCV_1D = pd.read_csv(path / 'dataOpenCV_1D.csv', index_col=0)
     dataOpenCV_2D = pd.read_csv(path / 'dataOpenCV_2D.csv', index_col=0)
@@ -79,6 +81,7 @@ def classify_with_gridsearch():
             X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=69, stratify=y)
 
             # Hyperparameter tune
+            #For me it doesnt work with -1 change n_jobs to 1
             clf = GridSearchCV(classifier, cv=5, param_grid=parameters[name], n_jobs=-1, verbose=1,
                                return_train_score=False)
 
@@ -90,12 +93,12 @@ def classify_with_gridsearch():
             report = classification_report(y_pred, y_test, output_dict=True)
 
             # Create df from report
-            p = Path('C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/ML_Exercise3/reports/classification_reports/fruit/'
+            p = Path(absolutePath + 'ML_Exercise3/reports/classification_reports/fruit/'
                      '/gridsearch/')
             dataframe = pd.DataFrame.from_dict(report)
             dataframe.to_csv(p / '{}_{}.csv'.format(index, name))
 
-            p = Path('C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/ML_Exercise3/reports/cv_results/fruit/')
+            p = Path(absolutePath + 'ML_Exercise3/reports/cv_results/fruit/')
             dataframe = pd.DataFrame.from_dict(clf.cv_results_)
             dataframe.to_csv(p / '{}_{}.csv'.format(index, name))
 
@@ -110,7 +113,7 @@ def classify_with_gridsearch():
             # Plot non-normalized confusion matrix
             plt.figure()
             save_confusion_matrix(cnf_matrix, classes=target_names, title='Confusion matrix, without normalization')
-            p = Path('C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/ML_Exercise3/reports/figures/fruit/')
+            p = Path(absolutePath + 'ML_Exercise3/reports/figures/fruit/')
             plt.savefig(p / '{}_{}_Confusion_Matrix.png'.format(index, name))
 
 
