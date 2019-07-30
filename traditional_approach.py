@@ -12,8 +12,8 @@ import itertools
 
 
 #Arlind change absoulute Path for you
-#absolutePath = "C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/"
-absolutePath = "/Users/macbook/Documents/TU Wien/Sommer Semester 2019/Machine Learning/Exercise 3_new/"
+absolutePath = "C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/"
+#absolutePath = "/Users/macbook/Documents/TU Wien/Sommer Semester 2019/Machine Learning/Exercise 3_new/"
 def classify_with_gridsearch(dataset):
     """
         Implemented with GridSearchCV()
@@ -30,15 +30,18 @@ def classify_with_gridsearch(dataset):
         # Target labels
         labels = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27,
                   28, 29]
+        path = Path(absolutePath + 'ML_Exercise3/data/Interim/fruits')
     else:
         # Target names
         target_names = ['negative', 'positive']
         # Target labels
         labels = [0, 1]
+        path = Path(absolutePath + 'ML_Exercise3/data/Interim/cars')
     # load data sets
+    print(target_names[1])
     print('Loading CSVs ({}).'.format(str(datetime.datetime.now())))
     # TODO: Look into why the relative paths aren't working
-    path = Path(absolutePath + 'ML_Exercise3/data/Interim/fruits')
+    #path = Path(absolutePath + 'ML_Exercise3/data/Interim/fruits')
     data = pd.read_csv(path / 'data.csv', index_col=0)
     dataOpenCV_1D = pd.read_csv(path / 'dataOpenCV_1D.csv', index_col=0)
     dataOpenCV_2D = pd.read_csv(path / 'dataOpenCV_2D.csv', index_col=0)
@@ -90,7 +93,7 @@ def classify_with_gridsearch(dataset):
 
             # Hyperparameter tune
             #For me it doesnt work with -1 change n_jobs to 1
-            clf = GridSearchCV(classifier, cv=5, param_grid=parameters[name], n_jobs=-1, verbose=1,
+            clf = GridSearchCV(classifier, cv=5, param_grid=parameters[name], n_jobs=1, verbose=1,
                                return_train_score=False)
 
             # Fit

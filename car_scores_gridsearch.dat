@@ -23,3 +23,12 @@ dataOpenCV_3D_Decision Tree, {'max_depth': 6, 'min_samples_split': 10}, 0.296601
 dataOpenCV_3D_Random Forest, {'n_estimators': 400}, 0.5520082389289392
 dataOpenCV_3D_SVC, {'C': 0.001, 'gamma': 0.001}, 0.04737384140061792
 dataOpenCV_3D_LinearSVC, {'C': 0.001}, 0.3573635427394439
+PillowData_KNN, {'n_neighbors': 7}, 0.1101956745623069
+PillowData_Naive Bayes, {}, 0.07003089598352215
+PillowData_KNN, {'n_neighbors': 7}, 0.1101956745623069
+PillowData_Naive Bayes, {}, 0.07003089598352215
+PillowData_KNN, {'n_neighbors': 7}, 0.1101956745623069
+PillowData_Naive Bayes, {}, 0.07003089598352215
+PillowData_KNN, {'n_neighbors': 8}, 0.5462555066079295
+PillowData_Naive Bayes, {}, 0.5341409691629956
+PillowData_Decision Tree, {'max_depth': 16, 'min_samples_split': 10}, 0.6475770925110133
