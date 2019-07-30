@@ -10,14 +10,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import itertools
 
-# Target names
-target_names = ['acerolas', 'apples', 'apricots', 'avocados', 'bananas', 'blackberries', 'blueberries',
-                'cantaloupes', 'cherries', 'coconuts', 'figs', 'grapefruits', 'grapes', 'guava',
-                'kiwifruit', 'lemons', 'limes', 'mangos', 'olives', 'oranges', 'passionfruit', 'peaches',
-                'pears', 'pineapples', 'plums', 'pomegranates', 'raspberries', 'strawberries', 'tomatoes',
-                'watermelons']
-# Target labels
-labels = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+
 #Arlind change absoulute Path for you
 #absolutePath = "C:/Princi/TU Wien/Semestri 1/Machine Learning/Exercises/Exercise 3 - New/"
 absolutePath = "/Users/macbook/Documents/TU Wien/Sommer Semester 2019/Machine Learning/Exercise 3_new/"
@@ -27,6 +20,21 @@ def classify_with_gridsearch(dataset):
         :return:
         """
 
+    if dataset == 'fruit':
+        # Target names
+        target_names = ['acerolas', 'apples', 'apricots', 'avocados', 'bananas', 'blackberries', 'blueberries',
+                        'cantaloupes', 'cherries', 'coconuts', 'figs', 'grapefruits', 'grapes', 'guava',
+                        'kiwifruit', 'lemons', 'limes', 'mangos', 'olives', 'oranges', 'passionfruit', 'peaches',
+                        'pears', 'pineapples', 'plums', 'pomegranates', 'raspberries', 'strawberries', 'tomatoes',
+                        'watermelons']
+        # Target labels
+        labels = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27,
+                  28, 29]
+    else:
+        # Target names
+        target_names = ['negative', 'positive']
+        # Target labels
+        labels = [0, 1]
     # load data sets
     print('Loading CSVs ({}).'.format(str(datetime.datetime.now())))
     # TODO: Look into why the relative paths aren't working
