@@ -93,7 +93,7 @@ def classify_with_gridsearch(dataset):
 
             # Hyperparameter tune
             #For me it doesnt work with -1 change n_jobs to 1
-            clf = GridSearchCV(classifier, cv=5, param_grid=parameters[name], n_jobs=1, verbose=1,
+            clf = GridSearchCV(classifier, cv=5, param_grid=parameters[name], n_jobs=-1, verbose=1,
                                return_train_score=False)
 
             # Fit
