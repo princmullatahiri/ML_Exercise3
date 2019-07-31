@@ -29,10 +29,12 @@ The tests in this project are seperated into two main categories:
 * Neural Networks.
 ### Traditional Methods
 
-To be added by Princ...
-
+The traditional method Scikit-learn was used. And the classifiers choosen are:
+kNN, Naive Bayes, Decision Tree, Random Forest, SVC, LinearSVC. For using these classifiers feature extractor 
+is very important because we use the csv created by ```featureExtractor.py```
+For running the traditional approach use terminal:
 ```
-Give an example
+python traditional_approach.py
 ```
 
 ### Neural Networks

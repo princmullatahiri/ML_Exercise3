@@ -10,12 +10,9 @@ import numpy as np
 import cv2
 import pandas as pd
 
+
 def loadImageDataSet(dataset):
-    """
-    Based on the example given in TUWEL. Who am I kidding I copied the whole thing and adjusted it accordingly.
-    :return:
-    """
-    # path to our image folder
+    # Based on the example given in TUWEL.
     # For the first run, download the images from http://data.vicos.si/datasets/FIDS30/FIDS30.zip,
     # and unzip them to your folder
     #imagePath = Path("../data/raw/"+dataset)
