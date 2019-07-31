@@ -46,7 +46,7 @@ When predicting an image, please open a terminal(cmd) in the ```neural network``
 inside the project.
 
 ```
-To be added
+python3 neural_network_predict.py $dataset
 ```
 
 When trying to create a new model please run the following command in terminal.
